@@ -27,32 +27,24 @@
 
     <TextView
         android:layout_below= "@+id/etLogin"
-        android:id="@+id/tvSenha"
+        android:id="@+id/tvPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/txt_senha"
         android:textAppearance="?android:attr/textAppearanceLarge"/>
 
     <EditText
-        android:layout_below="@+id/tvSenha"
-        android:id="@+id/etSenha"
+        android:layout_below="@+id/tvPassword"
+        android:id="@+id/etPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/hint_senha"
         android:inputType="textPassword"/>
 
     <Button
-        android:layout_below="@+id/etSenha"
-        android:id="@+id/button"
+        android:layout_below="@+id/etPassword"
+        android:id="@+id/btLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick= "logar"
         android:text="@string/botao_login"/>
-
-    <CheckBox
-        android:layout_below="@+id/button"
-        android:id="@+id/chkManterConectado"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/chk_manter"/>
 </RelativeLayout>
